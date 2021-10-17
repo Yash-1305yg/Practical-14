@@ -14,7 +14,7 @@ function decrease()
     var b =parseInt(a);
     if(b==1)
     {
-        document.getElementById('input1').style.borderColor="yellow";
+        document.getElementById('input1').style.borderColor="#1CB5E0";
     }
     if(b==0)
     {
@@ -26,5 +26,4 @@ function decrease()
         var c=b.toString();
         document.getElementById('text').textContent = c;
      }
-   
 }
